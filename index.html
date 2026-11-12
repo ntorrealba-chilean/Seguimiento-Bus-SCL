@@ -82,6 +82,16 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
     }
     a.wa:active { filter: brightness(.95); }
+    .horarios {
+      flex: 0 0 auto;
+      background: #F2F7FF;
+      border-bottom: 1px solid #D6E6FF;
+      padding: 8px 14px;
+      font-size: 13px;
+      line-height: 1.35;
+    }
+    .horarios b { color: var(--azul); }
+    .horarios .en { color: #5A6B85; font-size: 12px; }
   </style>
 </head>
 <body>
@@ -92,6 +102,10 @@
     </div>
     <div class="accent"></div>
   </header>
+  <div class="horarios">
+    <div><b>Horario:</b> todo el año, buses de 06:00 a 21:00 h. <span class="en">Year-round: 6:00 AM to 9:00 PM.</span></div>
+    <div><b>Temporada alta</b> (1-nov-2026 al 31-mar-2027): bus adicional de 18:00 a 02:00 h. <span class="en">High season (Nov 1, 2026 to Mar 31, 2027): extra shuttle from 6:00 PM to 2:00 AM.</span></div>
+  </div>
   <iframe
     src="https://orvis.gpschile.com/locator/index.html?t=8d59e021fe97c9e310ec09387f90afdb1C79435994F8FA4E304A4B740B9B8F91CF2A4EA6"
     title="Mapa en vivo de los buses Chilean"
